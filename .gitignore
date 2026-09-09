@@ -1,0 +1,22 @@
+# 白名单模式：默认忽略一切，仅纳入补丁 DLL 与说明文档
+# 游戏反编译源码（bongo_cat/Assembly-CSharp/、Patch/build/）与原版 DLL 均不入库（版权）
+
+# 忽略所有
+*
+
+# 基础文件
+!.gitignore
+!README.md
+
+# bongo_cat 目录本身
+!bongo_cat/
+bongo_cat/*
+!bongo_cat/PATCHES.md
+
+# 仅补丁产物 DLL
+!bongo_cat/Patch/
+bongo_cat/Patch/*
+!bongo_cat/Patch/Assembly-CSharp.dll
+!bongo_cat/Patch2/
+bongo_cat/Patch2/*
+!bongo_cat/Patch2/Assembly-CSharp.dll
