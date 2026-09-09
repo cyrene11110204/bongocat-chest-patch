@@ -11,6 +11,7 @@
 # bongo_cat 目录本身
 !bongo_cat/
 bongo_cat/*
+!bongo_cat/README.md
 !bongo_cat/PATCHES.md
 
 # 仅补丁产物 DLL
